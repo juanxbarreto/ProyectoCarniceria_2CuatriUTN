@@ -1,0 +1,14 @@
+==================================
+         FACTURA DE COMPRA
+==================================
+
+CARNICERIA DON JULIO
+10/7/23 19:48:52
+
+Producto: Carne
+Cantidad a comprar: Kg1
+Precio por kilo: $49.9500007629394
+Medio de pago: Credito
+
+Precio final: $52.447500801086370
+==================================
