@@ -259,15 +259,36 @@ namespace FormsCarniceria
                     MessageBox.Show(ex.Message);
                 }
             }
-            
+
         }
 
         /**************************************************************************************************************************/
 
         /**************************************************** SERIALIZAR **********************************************************/
 
+        private void btnSerializar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                ArchivosCarniceria.ProductosJsonSerializar(carniceria.Productos);
+            }
+            catch (ExceptionArchivos ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
 
-
+        private void btnDeserializar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                MessageBox.Show(ArchivosCarniceria.ProductosJsonDeserializar(), "Productos serializados en JSON", MessageBoxButtons.OK);
+            }
+            catch (ExceptionArchivos ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
 
         /**************************************************************************************************************************/
 
@@ -314,7 +335,7 @@ namespace FormsCarniceria
                 MessageBox.Show("No se selecciono un producto para modificar.");
             }
 
-            
+
         }
 
         private void btnDelete_Click(object sender, EventArgs e)
@@ -345,6 +366,8 @@ namespace FormsCarniceria
                 }
             }
         }
+
+        
 
         /**************************************************************************************************************************/
     }

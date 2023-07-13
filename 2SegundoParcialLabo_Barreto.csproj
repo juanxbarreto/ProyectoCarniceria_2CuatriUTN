@@ -8,4 +8,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\LibreriaCarniceria\LibreriaCarniceria.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Entidades\" />
+  </ItemGroup>
+
 </Project>

@@ -42,6 +42,8 @@
             btnAdd = new Button();
             btnModify = new Button();
             btnDelete = new Button();
+            btnDeserializar = new Button();
+            btnSerializar = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvProductos).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dgvClientes).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numericUpDownCantidad).BeginInit();
@@ -175,12 +177,36 @@
             btnDelete.UseVisualStyleBackColor = true;
             btnDelete.Click += btnDelete_Click;
             // 
+            // btnDeserializar
+            // 
+            btnDeserializar.Font = new Font("Segoe UI", 9F, FontStyle.Italic, GraphicsUnit.Point);
+            btnDeserializar.Location = new Point(12, 525);
+            btnDeserializar.Name = "btnDeserializar";
+            btnDeserializar.Size = new Size(135, 23);
+            btnDeserializar.TabIndex = 13;
+            btnDeserializar.Text = "Deserializar";
+            btnDeserializar.UseVisualStyleBackColor = true;
+            btnDeserializar.Click += btnDeserializar_Click;
+            // 
+            // btnSerializar
+            // 
+            btnSerializar.Font = new Font("Segoe UI", 9F, FontStyle.Italic, GraphicsUnit.Point);
+            btnSerializar.Location = new Point(12, 496);
+            btnSerializar.Name = "btnSerializar";
+            btnSerializar.Size = new Size(135, 23);
+            btnSerializar.TabIndex = 14;
+            btnSerializar.Text = "Serializar";
+            btnSerializar.UseVisualStyleBackColor = true;
+            btnSerializar.Click += btnSerializar_Click;
+            // 
             // HeladeraForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightSteelBlue;
             ClientSize = new Size(800, 560);
+            Controls.Add(btnSerializar);
+            Controls.Add(btnDeserializar);
             Controls.Add(btnDelete);
             Controls.Add(btnModify);
             Controls.Add(btnAdd);
@@ -223,5 +249,7 @@
         private Button btnAdd;
         private Button btnModify;
         private Button btnDelete;
+        private Button btnDeserializar;
+        private Button btnSerializar;
     }
 }

@@ -262,7 +262,7 @@ namespace FormsCarniceria
         {
             try
             {
-                MessageBox.Show(ArchivosCarniceria.ProductosXmlDeserializar(), "Productos serializados en XMl", MessageBoxButtons.OK);
+                MessageBox.Show(ArchivosCarniceria.ProductosXmlDeserializar(), "Productos serializados en XML", MessageBoxButtons.OK);
             }
             catch (ExceptionArchivos ex)
             {

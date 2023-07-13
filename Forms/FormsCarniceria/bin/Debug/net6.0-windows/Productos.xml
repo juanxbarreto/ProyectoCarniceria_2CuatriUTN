@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfProducto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Producto>
+    <ID>4</ID>
+    <Nombre>Carne</Nombre>
+    <PrecioPorKilo>99</PrecioPorKilo>
+    <KilosEnStock>12</KilosEnStock>
+    <Detalle>Carne</Detalle>
+  </Producto>
+  <Producto>
+    <ID>5</ID>
+    <Nombre>Pescado</Nombre>
+    <PrecioPorKilo>134.99</PrecioPorKilo>
+    <KilosEnStock>10</KilosEnStock>
+    <Detalle>Fresco</Detalle>
+  </Producto>
+  <Producto>
+    <ID>1002</ID>
+    <Nombre>Pollo</Nombre>
+    <PrecioPorKilo>99</PrecioPorKilo>
+    <KilosEnStock>6</KilosEnStock>
+    <Detalle>Primera calidad</Detalle>
+  </Producto>
+</ArrayOfProducto>

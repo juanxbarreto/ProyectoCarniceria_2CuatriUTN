@@ -1,0 +1,23 @@
+[
+  {
+    "ID": 4,
+    "Nombre": "Carne",
+    "PrecioPorKilo": 99,
+    "KilosEnStock": 12,
+    "Detalle": "Carne"
+  },
+  {
+    "ID": 5,
+    "Nombre": "Pescado",
+    "PrecioPorKilo": 134.99,
+    "KilosEnStock": 10,
+    "Detalle": "Fresco"
+  },
+  {
+    "ID": 1002,
+    "Nombre": "Pollo",
+    "PrecioPorKilo": 99,
+    "KilosEnStock": 6,
+    "Detalle": "Primera calidad"
+  }
+]
